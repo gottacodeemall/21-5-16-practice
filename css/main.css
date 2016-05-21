@@ -1,0 +1,80 @@
+.logo{
+  height:10%;
+  width:10%;
+}
+header .container,header nav, .contentwrapper, footer .container, .content{
+  max-width:750px;
+  margin:auto;
+}
+
+.team{
+  border-style: groove;border-radius: 100%;border-width: 2px;border-color: grey;
+}
+.image{
+  position:relative;
+
+}
+.image figcaption{
+  position:absolute;
+  display:none;
+  bottom:30%;
+  left:14%;
+  padding-left: 5%;
+  background-color: darkgrey;
+  color: yellow;
+  opacity: 0.6;
+  border-radius:30%;
+}
+.image:hover figcaption{
+  display:block;
+  transition:opacity .75s easeout;
+  }
+
+
+*{
+  font-family:Raleway;
+}
+.row{
+  font-weight: 600;
+  font-size: 20px;
+}
+.right{
+  font-size: 25px;
+  padding-top: 2%;
+}
+header{
+  background-color:lightblue;
+}
+nav a:nth-of-type(1n+2){
+  margin-left: 8%;
+
+}
+.left{
+  padding-top: 6%;
+}
+.contentwrapper{
+  display:flex;
+}
+
+aside{
+  margin-top: 2%;
+  width:20%;
+  margin-right:4%;
+
+}
+footer{
+  background-color:lightblue;
+}
+.foot p{
+  padding-top: 2%;
+}
+select{
+  height:5%;
+  width:100%;
+}
+.inputt{
+  width:100%;
+}
+.fpad{
+  padding-top: 4.25%;
+}
